@@ -1,0 +1,5 @@
+(defvar kalem 3)
+(defvar kitap 0)
+(set kalem (+ kalem (* 2 (+ 1 1))))
+(set kitap (- kalem 1))
+(if (equal kalem kitap) (list 1 2) (append 3 '(1 2)))
